@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Erika Maessaka, Visual Designer</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+<link rel="stylesheet" href="harrystyles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=LexendDeca:200,400,600">
+</head>
+
+<body>
+    <section class="sidebar-b">
+
+        <div class="about">
+            <h1><a href="index.html" title="that's me!">£rika maessaka</a></h1>
+        </div>
+
+        <div class="title">
+            <h2>Sunweb App: Personalizing the Booking Experience</h2>
+            <br>
+            <p class="tag">UX Design</p>
+        </div>
+        
+        <div class="figma">
+            <a href="https://xd.adobe.com/view/c0868fb3-4224-4e51-8336-eb11f81f8488-95d5/" title="open sunweb app prototype" target= _blank>▷ View Prototype</a>
+        </div>
+
+    </section>
+        
+    <section class="page">
+        <main>
+            <figure class="hero">
+                <img src="assets/sunweb-cover.png" alt="four iphones featuring screens of the sunweb app on red background.">
+            </figure>
+
+            <div class="content">
+
+                <div class="disclaimer">
+                    <p>(Project created in 2020)</p>
+                </div>
+                
+                <h3>Native App Redesign</h3>
+                
+                <p>Redesign proposal for a new Sunweb App. The application offers a complete experience to travellers of the Dutch travel agency, from the booking until the return flight. Users can organise their trips, book excursions and chat with their Sunweb travel agent. Another differential is the curated content based on the user’s past trips and interests, with personalised recommendations for destinations, best fitting hotels and excursions.</p>
+                <br>
+                <p>The project was created entirely using Adobe XD.</p>
+
+                <iframe
+                width="100%"
+                height="720"
+                src="https://www.youtube.com/embed/nLAlyA-ImJU"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <div class="more">
+
+                <h3>You May Also Like</h3>
+                <ul>
+                    <li><p>☞</p><a href="project1.html" title="this one is rad, check it out!">Closed Inbox: a New Gmail Feature</a></li>
+                    <li><p>☞</p><a href="project2.html" title="this one is bodacious, check it out!"><abbr title="Faculdade de Belas Artes da Universidade de Lisboa">FBAUL</abbr>'s Alumni Portal - Building Community</a></li>
+                    <li><p>☞</p><a href="project3.html" title="this one is ok. (jk check it out :)">Lookin' Sharp! Design Kit For Japanese Knife Online Shop</a></li>
+                </ul>   
+            </div>
+        </main>
+
+        <section class="rightspace">
+        </section>
+    </section>
+
+    <a href="#top" id="float">
+        <p>⇧</p>
+    </a>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("float");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 380 || document.documentElement.scrollTop > 380) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+</body>
+</html>
